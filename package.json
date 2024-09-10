@@ -1,0 +1,71 @@
+{
+  "name": "@omer-x/next-build-metadata",
+  "version": "0.0.0",
+  "description": "provides utility functions for retrieving metadata about a Next.js build",
+  "keywords": [
+    "next",
+    "metadata",
+    "build",
+    "typescript",
+    "ts",
+    "nextjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omermecitoglu/next-build-metadata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omermecitoglu/next-build-metadata/issues"
+  },
+  "homepage": "https://github.com/omermecitoglu/next-build-metadata#readme",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Omer Mecitoglu",
+    "email": "omer.mecitoglu@gmail.com",
+    "url": "https://omermecitoglu.github.io"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./*": {
+      "import": "./dist/*.js",
+      "types": "./dist/*.d.ts"
+    }
+  },
+  "files": [
+    "dist/"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=14.8.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "next": "^13 || ^14"
+  },
+  "dependencies": {
+    "react": "^18"
+  },
+  "devDependencies": {
+    "@omer-x/eslint-config": "^1.0.7",
+    "@types/node": "^22.5.4",
+    "eslint": "^8.57.0",
+    "semantic-release": "^24.1.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2"
+  }
+}
