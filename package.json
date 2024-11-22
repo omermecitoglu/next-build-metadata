@@ -59,9 +59,9 @@
     "react": "^18"
   },
   "devDependencies": {
-    "@omer-x/eslint-config": "^1.0.7",
+    "@omer-x/eslint-config": "^2.0.3",
     "@types/node": "^22.5.4",
-    "eslint": "^8.57.0",
+    "eslint": "^9.15.0",
     "semantic-release": "^24.1.0",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
