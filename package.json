@@ -55,17 +55,14 @@
   "peerDependencies": {
     "next": "^13 || ^14"
   },
-  "dependencies": {
-    "react": "^18"
-  },
   "devDependencies": {
     "@omer-x/eslint-config": "^2.0.3",
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.9.1",
     "eslint": "^9.15.0",
-    "semantic-release": "^24.1.0",
+    "semantic-release": "^24.2.0",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
-    "tsup": "^8.2.4",
-    "typescript": "^5.6.2"
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
   }
 }
