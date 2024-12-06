@@ -53,7 +53,7 @@
     "build": "tsup"
   },
   "peerDependencies": {
-    "next": "^13 || ^14"
+    "next": "^13 || ^14 || ^15"
   },
   "devDependencies": {
     "@omer-x/eslint-config": "^2.1.0",
