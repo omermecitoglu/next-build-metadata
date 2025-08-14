@@ -56,13 +56,13 @@
     "next": "^13 || ^14 || ^15"
   },
   "devDependencies": {
-    "@omer-x/eslint-config": "^2.1.0",
-    "@types/node": "^22.10.1",
-    "eslint": "^9.16.0",
-    "semantic-release": "^24.2.0",
-    "ts-jest": "^29.2.5",
+    "@omer-x/eslint-config": "^2.1.4",
+    "@types/node": "^24.2.1",
+    "eslint": "^9.33.0",
+    "semantic-release": "^24.2.7",
+    "ts-jest": "^29.4.1",
     "ts-node": "^10.9.2",
-    "tsup": "^8.3.5",
-    "typescript": "^5.7.2"
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
   }
 }
